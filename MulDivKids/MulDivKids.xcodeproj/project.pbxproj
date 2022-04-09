@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA5D9D8E2802086D00BDE29D /* MulDivKidsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5D9D8D2802086D00BDE29D /* MulDivKidsApp.swift */; };
+		FA5D9D902802086D00BDE29D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5D9D8F2802086D00BDE29D /* ContentView.swift */; };
+		FA5D9D922802086E00BDE29D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5D9D912802086E00BDE29D /* Assets.xcassets */; };
+		FA5D9D952802086E00BDE29D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5D9D942802086E00BDE29D /* Preview Assets.xcassets */; };
+		FA5D9DA02802086E00BDE29D /* MulDivKidsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5D9D9F2802086E00BDE29D /* MulDivKidsTests.swift */; };
+		FA5D9DAB2802086E00BDE29D /* MulDivKidsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5D9DAA2802086E00BDE29D /* MulDivKidsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA5D9D9C2802086E00BDE29D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5D9D822802086D00BDE29D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5D9D892802086D00BDE29D;
+			remoteInfo = MulDivKids;
+		};
+		FA5D9DA72802086E00BDE29D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5D9D822802086D00BDE29D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5D9D892802086D00BDE29D;
+			remoteInfo = MulDivKids;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA5D9D8A2802086D00BDE29D /* MulDivKids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MulDivKids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5D9D8D2802086D00BDE29D /* MulDivKidsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulDivKidsApp.swift; sourceTree = "<group>"; };
+		FA5D9D8F2802086D00BDE29D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA5D9D912802086E00BDE29D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA5D9D942802086E00BDE29D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA5D9D962802086E00BDE29D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5D9D9B2802086E00BDE29D /* MulDivKidsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MulDivKidsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5D9D9F2802086E00BDE29D /* MulDivKidsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulDivKidsTests.swift; sourceTree = "<group>"; };
+		FA5D9DA12802086E00BDE29D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5D9DA62802086E00BDE29D /* MulDivKidsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MulDivKidsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5D9DAA2802086E00BDE29D /* MulDivKidsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulDivKidsUITests.swift; sourceTree = "<group>"; };
+		FA5D9DAC2802086E00BDE29D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA5D9D872802086D00BDE29D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5D9D982802086E00BDE29D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5D9DA32802086E00BDE29D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA5D9D812802086D00BDE29D = {
+			isa = PBXGroup;
+			children = (
+				FA5D9D8C2802086D00BDE29D /* MulDivKids */,
+				FA5D9D9E2802086E00BDE29D /* MulDivKidsTests */,
+				FA5D9DA92802086E00BDE29D /* MulDivKidsUITests */,
+				FA5D9D8B2802086D00BDE29D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA5D9D8B2802086D00BDE29D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D9D8A2802086D00BDE29D /* MulDivKids.app */,
+				FA5D9D9B2802086E00BDE29D /* MulDivKidsTests.xctest */,
+				FA5D9DA62802086E00BDE29D /* MulDivKidsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA5D9D8C2802086D00BDE29D /* MulDivKids */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D9D8D2802086D00BDE29D /* MulDivKidsApp.swift */,
+				FA5D9D8F2802086D00BDE29D /* ContentView.swift */,
+				FA5D9D912802086E00BDE29D /* Assets.xcassets */,
+				FA5D9D962802086E00BDE29D /* Info.plist */,
+				FA5D9D932802086E00BDE29D /* Preview Content */,
+			);
+			path = MulDivKids;
+			sourceTree = "<group>";
+		};
+		FA5D9D932802086E00BDE29D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D9D942802086E00BDE29D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA5D9D9E2802086E00BDE29D /* MulDivKidsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D9D9F2802086E00BDE29D /* MulDivKidsTests.swift */,
+				FA5D9DA12802086E00BDE29D /* Info.plist */,
+			);
+			path = MulDivKidsTests;
+			sourceTree = "<group>";
+		};
+		FA5D9DA92802086E00BDE29D /* MulDivKidsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA5D9DAA2802086E00BDE29D /* MulDivKidsUITests.swift */,
+				FA5D9DAC2802086E00BDE29D /* Info.plist */,
+			);
+			path = MulDivKidsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA5D9D892802086D00BDE29D /* MulDivKids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5D9DAF2802086E00BDE29D /* Build configuration list for PBXNativeTarget "MulDivKids" */;
+			buildPhases = (
+				FA5D9D862802086D00BDE29D /* Sources */,
+				FA5D9D872802086D00BDE29D /* Frameworks */,
+				FA5D9D882802086D00BDE29D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MulDivKids;
+			productName = MulDivKids;
+			productReference = FA5D9D8A2802086D00BDE29D /* MulDivKids.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA5D9D9A2802086E00BDE29D /* MulDivKidsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5D9DB22802086E00BDE29D /* Build configuration list for PBXNativeTarget "MulDivKidsTests" */;
+			buildPhases = (
+				FA5D9D972802086E00BDE29D /* Sources */,
+				FA5D9D982802086E00BDE29D /* Frameworks */,
+				FA5D9D992802086E00BDE29D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5D9D9D2802086E00BDE29D /* PBXTargetDependency */,
+			);
+			name = MulDivKidsTests;
+			productName = MulDivKidsTests;
+			productReference = FA5D9D9B2802086E00BDE29D /* MulDivKidsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA5D9DA52802086E00BDE29D /* MulDivKidsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5D9DB52802086E00BDE29D /* Build configuration list for PBXNativeTarget "MulDivKidsUITests" */;
+			buildPhases = (
+				FA5D9DA22802086E00BDE29D /* Sources */,
+				FA5D9DA32802086E00BDE29D /* Frameworks */,
+				FA5D9DA42802086E00BDE29D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5D9DA82802086E00BDE29D /* PBXTargetDependency */,
+			);
+			name = MulDivKidsUITests;
+			productName = MulDivKidsUITests;
+			productReference = FA5D9DA62802086E00BDE29D /* MulDivKidsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA5D9D822802086D00BDE29D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FA5D9D892802086D00BDE29D = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					FA5D9D9A2802086E00BDE29D = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = FA5D9D892802086D00BDE29D;
+					};
+					FA5D9DA52802086E00BDE29D = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = FA5D9D892802086D00BDE29D;
+					};
+				};
+			};
+			buildConfigurationList = FA5D9D852802086D00BDE29D /* Build configuration list for PBXProject "MulDivKids" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA5D9D812802086D00BDE29D;
+			productRefGroup = FA5D9D8B2802086D00BDE29D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA5D9D892802086D00BDE29D /* MulDivKids */,
+				FA5D9D9A2802086E00BDE29D /* MulDivKidsTests */,
+				FA5D9DA52802086E00BDE29D /* MulDivKidsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA5D9D882802086D00BDE29D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5D9D952802086E00BDE29D /* Preview Assets.xcassets in Resources */,
+				FA5D9D922802086E00BDE29D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5D9D992802086E00BDE29D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5D9DA42802086E00BDE29D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA5D9D862802086D00BDE29D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5D9D902802086D00BDE29D /* ContentView.swift in Sources */,
+				FA5D9D8E2802086D00BDE29D /* MulDivKidsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5D9D972802086E00BDE29D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5D9DA02802086E00BDE29D /* MulDivKidsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5D9DA22802086E00BDE29D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5D9DAB2802086E00BDE29D /* MulDivKidsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA5D9D9D2802086E00BDE29D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA5D9D892802086D00BDE29D /* MulDivKids */;
+			targetProxy = FA5D9D9C2802086E00BDE29D /* PBXContainerItemProxy */;
+		};
+		FA5D9DA82802086E00BDE29D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA5D9D892802086D00BDE29D /* MulDivKids */;
+			targetProxy = FA5D9DA72802086E00BDE29D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA5D9DAD2802086E00BDE29D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 14.5;
+			};
+			name = Debug;
+		};
+		FA5D9DAE2802086E00BDE29D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 14.5;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA5D9DB02802086E00BDE29D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MulDivKids/Preview Content\"";
+				DEVELOPMENT_TEAM = 8L3TUKA6ZM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MulDivKids/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.avf.mth.MulDivKids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Debug;
+		};
+		FA5D9DB12802086E00BDE29D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MulDivKids/Preview Content\"";
+				DEVELOPMENT_TEAM = 8L3TUKA6ZM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MulDivKids/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.avf.mth.MulDivKids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Release;
+		};
+		FA5D9DB32802086E00BDE29D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L3TUKA6ZM;
+				INFOPLIST_FILE = MulDivKidsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.avf.mth.MulDivKidsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MulDivKids.app/MulDivKids";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Debug;
+		};
+		FA5D9DB42802086E00BDE29D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L3TUKA6ZM;
+				INFOPLIST_FILE = MulDivKidsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.avf.mth.MulDivKidsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MulDivKids.app/MulDivKids";
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+			};
+			name = Release;
+		};
+		FA5D9DB62802086E00BDE29D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L3TUKA6ZM;
+				INFOPLIST_FILE = MulDivKidsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.avf.mth.MulDivKidsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = MulDivKids;
+			};
+			name = Debug;
+		};
+		FA5D9DB72802086E00BDE29D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L3TUKA6ZM;
+				INFOPLIST_FILE = MulDivKidsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.avf.mth.MulDivKidsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = MulDivKids;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA5D9D852802086D00BDE29D /* Build configuration list for PBXProject "MulDivKids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5D9DAD2802086E00BDE29D /* Debug */,
+				FA5D9DAE2802086E00BDE29D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5D9DAF2802086E00BDE29D /* Build configuration list for PBXNativeTarget "MulDivKids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5D9DB02802086E00BDE29D /* Debug */,
+				FA5D9DB12802086E00BDE29D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5D9DB22802086E00BDE29D /* Build configuration list for PBXNativeTarget "MulDivKidsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5D9DB32802086E00BDE29D /* Debug */,
+				FA5D9DB42802086E00BDE29D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5D9DB52802086E00BDE29D /* Build configuration list for PBXNativeTarget "MulDivKidsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5D9DB62802086E00BDE29D /* Debug */,
+				FA5D9DB72802086E00BDE29D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA5D9D822802086D00BDE29D /* Project object */;
+}
